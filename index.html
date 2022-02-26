@@ -247,11 +247,85 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Projects</heading>
               <p>
-                I'm interested in computer vision, machine learning, optimization, and image processing. Much of my research is about inferring the physical world (shape, motion, color, light, etc) from images. Representative papers are <span class="highlight">highlighted</span>.
+                Besides doing research, I also participated in other projects building interesting application. Here are some of my highlighted projects.
               </p>
             </td>
           </tr>
         </tbody></table>
+
+        <tr onmouseout="blocknerf_stop()" onmouseover="blocknerf_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='blocknerf_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/blocknerf_after.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='data/cinnamon_ie.png' width="160">
+            </div>
+            <script type="text/javascript">
+              function blocknerf_start() {
+                document.getElementById('blocknerf_image').style.opacity = "1";
+              }
+
+              function blocknerf_stop() {
+                document.getElementById('blocknerf_image').style.opacity = "0";
+              }
+              blocknerf_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://github.com/nttung1110/Information-Extraction-Receipts">
+              <papertitle>Explainable Graph for Information Extraction on Receipts</papertitle>
+            </a>
+            <!-- <br>
+            <a>Minh-Tri Ho</a>
+            <strong>Trong-Tung Nguyen</strong>,
+            <a>Hieu Dao</a>,
+            <a>Minh-Triet Tran</a>,
+            <br> -->
+      <!-- <em>SoICT 2019: Proceedings of the Tenth International Symposium on Information and Communication Technology</em>, 2019 -->
+            <br>
+            <a href="https://github.com/nttung1110/Information-Extraction-Receipts">project page</a>
+            <p>I'm working with my teammate - Truong-Phat Nguyen for a solution to ICDAR 2019 Robust Reading Challenge on Scanned Receipts OCR and Information Extraction.</p>
+          </td>
+        </tr>
+
+        <tr onmouseout="blocknerf_stop()" onmouseover="blocknerf_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='blocknerf_image'><video  width=100% height=100% muted autoplay loop>
+              <source src="images/blocknerf_after.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+              </video></div>
+              <img src='data/visual_search.png' width="160">
+            </div>
+            <script type="text/javascript">
+              function blocknerf_start() {
+                document.getElementById('blocknerf_image').style.opacity = "1";
+              }
+
+              function blocknerf_stop() {
+                document.getElementById('blocknerf_image').style.opacity = "0";
+              }
+              blocknerf_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://github.com/nttung1110/CS422-Project">
+              <papertitle>Multi-query(Text, Image, Sketch) for Visual Search </papertitle>
+            </a>
+            <!-- <br>
+            <a>Minh-Tri Ho</a>
+            <strong>Trong-Tung Nguyen</strong>,
+            <a>Hieu Dao</a>,
+            <a>Minh-Triet Tran</a>,
+            <br> -->
+      <!-- <em>SoICT 2019: Proceedings of the Tenth International Symposium on Information and Communication Technology</em>, 2019 -->
+            <br>
+            <a href="https://github.com/nttung1110/CS422-Project">project page</a>
+            <p>This application provide user a platform to perform visual search with various query options including text, image, and sketch</p>
+          </td>
+        </tr>
 
 	<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
