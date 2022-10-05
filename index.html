@@ -53,7 +53,62 @@
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          
+          <tr onmouseout="blocknerf_stop()" onmouseover="blocknerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='blocknerf_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="images/blocknerf_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='data/X-CG-IMIF.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function blocknerf_start() {
+                  document.getElementById('blocknerf_image').style.opacity = "1";
+                }
+
+                function blocknerf_stop() {
+                  document.getElementById('blocknerf_image').style.opacity = "0";
+                }
+                blocknerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+							<a href="https://github.com/nttung1110/VISHC-PillCIL2022">
+                <papertitle>HCMUS at MediaEval 2021: Ensembles of Action Recognition Networks with Prior Knowledge for Table Tennis Strokes Classification Task</papertitle>
+              </a>
+              <br>
+              <strong>Trong-Tung Nguyen</strong>,
+              <a>Hieu H.Pham</a>,
+              <a>Phi Le Nguyen</a>,
+              <a>Thanh Hung Nguyen</a>,
+              <a>Minh Do</a>,
+              <br>
+        <!-- <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops(CVPR20-Worskshop)</em>, 2020 -->
+              <br>
+              <a href="https://github.com/nttung1110/VISHC-PillCIL2022">project page</a>
+        /
+              <a href="https://github.com/nttung1110/VISHC-PillCIL2022">paper</a>
+        /
+              <a href="https://github.com/nttung1110/VISHC-PillCIL2022">video</a>
+              <p>Classifying pill categories from real-world images is crucial
+                for various smart healthcare applications. Although existing approaches
+                in image classification might achieve a good performance on fixed pill
+                categories, they fail to handle novel instances of pill categories that are
+                frequently presented to the learning algorithm. To this end, a trivial solution is to train the model with novel classes. However, this may result
+                in a phenomenon known as catastrophic forgetting, in which the system
+                forgets what it learned in previous classes. In this paper, we address
+                this challenge by introducing the class incremental learning (CIL) ability to traditional pill image classification systems. Specifically, we propose a novel incremental multi-stream intermediate fusion framework enabling incorporation of an additional guidance information stream that
+                best matches the domain of the problem into various state-of-the-art
+                CIL methods. From this framework, we consider color-specific information of pill images as a guidance stream and devise an approach,
+                namely “Color Guidance with Multi-stream intermediate fusion”(CG-IMIF) for solving CIL pill image classification task. We conduct comprehensive experiments on real-world incremental pill image classification
+                dataset, namely VAIPE-PCIL, and find that the CG-IMIF consistently
+                outperforms several state-of-the-art methods by a large margin in different task settings.</p>
+            </td>
+          </tr>
+
+
+
           <tr onmouseout="blocknerf_stop()" onmouseover="blocknerf_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
